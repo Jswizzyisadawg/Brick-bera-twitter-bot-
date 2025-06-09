@@ -1,0 +1,19 @@
+{
+  "name": "@bp-templates/empty-integration",
+  "integrationName": "x-integration/x-integration",
+  "scripts": {
+    "check:type": "tsc --noEmit"
+  },
+  "private": true,
+  "dependencies": {
+    "@botpress/client": "0.48.0",
+    "@botpress/sdk": "3.6.2",
+    "axios": "^1.8.3",
+    "oauth-1.0a": "^2.2.6",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.67",
+    "typescript": "^5.6.3"
+  }
+}
